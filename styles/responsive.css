@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    .nav-container {
+        border: 2px solid navy;
+        flex-direction: column;
+        max-width: 335px;
+        height: 75px;
+        margin: 0 auto;
+    }
+
+    .nav-title{
+        width: 100%;
+        gap: 8px;
+    }
+    .nav-title >img{
+        width: 28px;
+        height: 33px;
+    }
+    .nav-title >h5{
+        font-size: 21px;
+    }
+    .nav-menu{
+        width: 100%;
+
+    }
+}

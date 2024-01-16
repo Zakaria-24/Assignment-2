@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    background: #FFF;
+}
+span{
+    color: #ff5400;
+}
+
+      /* nav section start  */
+.nav-container{
+    /* border: 2px solid green; */
+    max-width: 1170px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-title{
+    /* border: 2px solid darkviolet; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+.nav-title >img{
+    width: 48px;
+    height: 56px;
+}
+.nav-title >h5{
+    color: #131313;
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-menu{
+    /* border: 2px solid rgb(154, 11, 11); */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* nav section ends  */
+/* banner section start  */
+
+/* banner section ends  */
