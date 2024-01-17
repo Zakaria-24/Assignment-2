@@ -357,7 +357,8 @@ width: 100%;
     padding: 40px;
 }
 
-.newsletter-content hr {
+.newsletter-content > hr {
+    width: 400px;
     margin-top: 16px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);

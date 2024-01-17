@@ -249,6 +249,7 @@ width: 100%;
 }
 
 .newsletter-content hr {
+    width: 300px;
     margin-top: 16px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
@@ -258,7 +259,7 @@ width: 100%;
 .newsletter-content input {
     margin-top: 16px;
     gap: 16px;
-    width: 300px;
+    width: 275px;
     height: 52px;
     border: none;
     border-radius: 8px;
@@ -278,12 +279,8 @@ width: 100%;
     width: 320px;
 }
 
-.newsletter-img img{
-
-}
-
 .newsletter-img img {
-width: 100%;
+width: 80%;
     height: 400px;
 }
 
