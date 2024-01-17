@@ -223,6 +223,7 @@ margin-top: 24px;
     width: 100%;
     display: flex;
     gap: 6%;
+    margin: 48px auto;
 }
 
 #img3, #img4, #img5{
@@ -436,12 +437,6 @@ footer {
     display: inline-flex;
     gap: 1rem;
 }
-
-.footer-img {
-    width: 40px;
-    height: 46px;
-}
-
 .footer-title {
     color: #131318;
     font-size: 2rem;
@@ -449,12 +444,9 @@ footer {
     font-weight: 800;
 }
 
-.footer-description {
-    color: #5A5A5D;
-    font-family: 'Mulish', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 26px;
+.footer-img {
+    width: 50px;
+    height: 46px;
 }
 
 footer img {
@@ -465,7 +457,8 @@ footer img {
 
 footer hr {
     /* width: 872px; */
-    margin-top: 50px 280px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
 }
@@ -476,4 +469,88 @@ footer hr {
     font-family: 'Mulish', sans-serif;
     font-size: 1rem;
     font-weight: 300;
+}
+
+
+/* shadow text  */
+.primary-text{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(100px) translateY(-250px);
+}
+.maldives{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(170px) translateY(-180px);
+}
+.indonesia{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(170px) translateY(-180px);
+}
+.srilanka{
+    width: 200px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(90px) translateY(-150px);
+}
+.northAmerica{
+    width: 200px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(90px) translateY(-150px);
+}
+.kashmir{
+
+    width: 100px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(90px) translateY(-150px);
+}
+.bangladesh{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(170px) translateY(-170px);
+}
+.bandarban{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(170px) translateY(-170px);
 }
